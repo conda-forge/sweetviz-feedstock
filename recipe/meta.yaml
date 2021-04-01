@@ -1,5 +1,5 @@
 {% set name = "sweetviz" %}
-{% set version = "2.0.9" %}
+{% set version = "2.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sweetviz-{{ version }}.tar.gz
-  sha256: 7388aad01ffec7b7716795988d7f2e65a86e465ae0f7efe7475e0db9e32a232a
+  sha256: bea7f44db9740c8b303599be23498c25c45a9e945843b98307dbec6d54886e92
 
 build:
   number: 0
