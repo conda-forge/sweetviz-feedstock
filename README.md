@@ -1,11 +1,11 @@
-About sweetviz
-==============
+About sweetviz-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sweetviz-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/fbdesignpro/sweetviz
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sweetviz-feedstock/blob/main/LICENSE.txt)
 
 Summary: A pandas-based library to visualize and compare datasets.
 
