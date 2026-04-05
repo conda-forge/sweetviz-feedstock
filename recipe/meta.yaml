@@ -1,5 +1,5 @@
 {% set name = "sweetviz" %}
-{% set version = "2.3.1" %}
+{% set version = "2.3.2" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sweetviz-{{ version }}.tar.gz
-  sha256: 076bcab57835db167789e68949340f074dee2da78a24eaaaf211d2735f38b691
+  sha256: bacce20f9413f0a5ae908e5aa41a30766c5b6e008e67260de44d9bbdca70ecdb
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -21,6 +21,8 @@ requirements:
     - setuptools >=61
     - pip
   run:
+    - importlib-metadata
+    - importlib_resources >=1.2.0
     - python >={{ python_min }}
     - pandas >=0.25.3,!=1.0.0,!=1.0.1,!=1.0.2
     - numpy >=1.16.0
